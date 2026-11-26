@@ -130,7 +130,7 @@ git push
 
 Работайте в своей копии репозитория.
 
-Создайте файл `app/src/main/kotlin/kfd/MessagePolicy.kt`:
+Создайте файл `core`:
 
 ```kotlin
 package kfd
@@ -141,7 +141,7 @@ fun canSendMessage(
 ): Boolean = text!!.isNotEmpty() && text.length < maxLength
 ```
 
-Создайте файл `app/src/test/kotlin/kfd/MessagePolicyTest.kt`:
+Создайте файл `core`:
 
 ```kotlin
 package kfd
